@@ -12,8 +12,16 @@
    <br><br>
    secondNumber:<input type="number" name="number2" id="number2">
    <br><br>
+     
+   <select name="operation" id="operation">
+   <option value="op1">+</option>
+  <option value="op2">-</option>
+  <option value="op3">*</option>
+  <option value="op4">/</option>
+   </select><br><br>
+     
  <button>submit</button>
 
-   </form>
+</form>
 </body>
 </html>
