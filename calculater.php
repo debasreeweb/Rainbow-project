@@ -7,21 +7,20 @@
     <title>Document</title>
 </head>
 <body>
- <form action="testdata.php" method='get'> 
-   firstNumber:<input type="number" name="number1" id="number1"> 
+<form action="testdata.php" method='get'> 
+   firstNumber:<input type="number" name="number1" id="name"> 
    <br><br>
-   secondNumber:<input type="number" name="number2" id="number2">
+   secondNumber:<input type="number" name="number2" id="lastname">
    <br><br>
-     
    <select name="operation" id="operation">
-   <option value="op1">+</option>
-  <option value="op2">-</option>
-  <option value="op3">*</option>
-  <option value="op4">/</option>
-   </select><br><br>
-     
- <button>submit</button>
+   <option value="+">+</option>
+  <option value="-">-</option>
+  <option value="*">*</option>
+  <option value="/">/</option>
+  </select><br><br>
+    
+   <button>submit</button>
 
-</form>
+   </form>
 </body>
 </html>
