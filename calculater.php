@@ -7,12 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-<form action="testdata.php" method='get'> 
-   firstNumber:<input type="number" name="number1" id="name"> 
+ <form action="testdata.php" method='get'> 
+   firstNumber:<input type="number" name="number1" id="number1"> 
    <br><br>
-   secondNumber:<input type="number" name="number2" id="lastname">
+   secondNumber:<input type="number" name="number2" id="number2">
    <br><br>
-   <button>submit</button>
+ <button>submit</button>
 
    </form>
 </body>
