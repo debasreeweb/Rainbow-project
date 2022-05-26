@@ -1,11 +1,11 @@
 <?php
-echo "<pre>";
+ echo "<pre>";
  print_r($_GET);
  echo "</pre>";
 
  echo "<br>";
- echo $_GET['name'].'  ';
- echo $_GET['lastname'];
+ echo $_GET['number1'].'  ';
+ echo $_GET['number2'];
 
 
 // echo "<pre>";
